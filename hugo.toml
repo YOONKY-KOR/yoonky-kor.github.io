@@ -1,0 +1,15 @@
+baseURL = "https://kyyoon.github.io/"
+languageCode = "ko"
+title = "My Engineering Blog"
+theme = "PaperMod"
+
+[params]
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowCodeCopyButtons = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
