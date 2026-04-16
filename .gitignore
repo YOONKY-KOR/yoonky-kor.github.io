@@ -1,0 +1,14 @@
+# Hugo build output
+public/
+resources/_gen/
+
+# Claude Code
+.claude/
+
+# Node
+node_modules/
+scripts/node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
