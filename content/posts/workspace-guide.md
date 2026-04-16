@@ -15,44 +15,39 @@ tocOpen: true
 
 ## 전체 구조
 
-```
-🏡 Home                  ← 여기서 시작하세요
-├── 💼 Work Hub          ← 업무 관련 모든 것
-│   ├── Engineering Knowledge Base
-│   │   ├── 🐛 Azure Troubleshooting Log  (DB)
-│   │   ├── 📧 Mail Insights              (DB)
-│   │   ├── 📋 Customer FAQ Patterns      (DB)
-│   │   ├── 📋 Answer Templates           (DB)
-│   │   ├── 📬 Customer Thread Tracker    (DB)
-│   │   └── 📚 Azure Service Reference    (DB)
-│   ├── Claude 엔지니어링 시스템 v4
-│   └── Tech References
-│       ├── NVIDIA RAG blueprint
-│       ├── MS Fabric / Databricks
-│       ├── MSTSC Entra ID MFA
-│       ├── ApplicationGateway 생성
-│       ├── 구독 생성
-│       └── HOST02 / 팀 생성 가이드
-│
-├── 🏠 Personal Hub      ← 개인 생활 관련 모든 것
-│   ├── Finance
-│   │   ├── Financial Summary  (DB)
-│   │   ├── Investment Tracker (DB)
-│   │   └── Budgeting / Transfers
-│   ├── @오늘  (Daily)
-│   ├── Habits
-│   └── Time Management
-│
-├── 📚 Knowledge Hub     ← 지식 축적
-│   ├── Notes (Permanent + All Notes)
-│   ├── Library
-│   ├── Continents / Travel
-│   ├── JP System Must Know
-│   └── AI
-│
-└── 🗂️ Archive           ← 구 버전 보관 (확인 후 삭제)
-    └── 2025-05 템플릿 버전들
-```
+- 🏡 **Home** — 여기서 시작하세요
+  - 💼 **Work Hub** — 업무 관련 모든 것
+    - Engineering Knowledge Base
+      - 🐛 Azure Troubleshooting Log `DB`
+      - 📧 Mail Insights `DB`
+      - 📋 Customer FAQ Patterns `DB`
+      - 📋 Answer Templates `DB`
+      - 📬 Customer Thread Tracker `DB`
+      - 📚 Azure Service Reference `DB`
+    - Claude 엔지니어링 시스템 v4
+    - Tech References
+      - NVIDIA RAG blueprint
+      - MS Fabric / Databricks
+      - MSTSC Entra ID MFA
+      - ApplicationGateway 생성
+      - 구독 생성
+      - HOST02 / 팀 생성 가이드
+  - 🏠 **Personal Hub** — 개인 생활 관련 모든 것
+    - Finance
+      - Financial Summary `DB`
+      - Investment Tracker `DB`
+      - Budgeting / Transfers
+    - @오늘 (Daily)
+    - Habits
+    - Time Management
+  - 📚 **Knowledge Hub** — 지식 축적
+    - Notes (Permanent + All Notes)
+    - Library
+    - Continents / Travel
+    - JP System Must Know
+    - AI
+  - 🗂️ **Archive** — 구 버전 보관 (확인 후 삭제)
+    - 2025-05 템플릿 버전들
 
 ---
 
