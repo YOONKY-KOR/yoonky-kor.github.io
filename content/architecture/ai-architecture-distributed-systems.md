@@ -5,6 +5,9 @@ draft: false
 tags: ["ai", "azure"]
 categories: ["Architecture"]
 description: "LLM·멀티모달 AI 시대에 중앙집중식 아키텍처의 한계를 극복하는 분산 지능형 시스템 설계 전략. RAG 파이프라인 임베딩 일관성, TCO 최적화, MLOps 자동화 실무 가이드."
+cover:
+  image: "https://picsum.photos/seed/ai-architecture/1200/630"
+  alt: "AI 시대의 아키텍처 혁신: 분산 지능형 시스템 구축 전략"
 series: ["Architecture Insights"]
 series_weight: 1
 showToc: true
