@@ -53,9 +53,9 @@ enableRobotsTXT = true
 
 [[menu.main]]
   parent = "categories"
-  identifier = "azure"
-  name = "Azure"
-  url = "/azure/"
+  identifier = "ai"
+  name = "AI"
+  url = "/ai/"
   weight = 1
 
 [[menu.main]]
@@ -67,9 +67,9 @@ enableRobotsTXT = true
 
 [[menu.main]]
   parent = "categories"
-  identifier = "ai"
-  name = "AI"
-  url = "/ai/"
+  identifier = "azure"
+  name = "Azure"
+  url = "/azure/"
   weight = 3
 
 [[menu.main]]
