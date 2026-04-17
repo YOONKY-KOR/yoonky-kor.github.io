@@ -17,28 +17,39 @@ enableRobotsTXT = true
   description = "Cloud & AI Engineering Blog"
   author = "KY"
   defaultTheme = "auto"
-  
-  # --- [1. 파비콘 설정 추가] ◀◀ 이 섹션 전체 추가 ---
+
+  # --- [1. 파비콘 설정] ---
+  # static/ 폴더에 해당 파일들이 있어야 브라우저 탭에 아이콘이 나타납니다.
   [params.assets]
     favicon = "/favicon.ico"
     favicon16x16 = "/favicon-16x16.png"
     favicon32x32 = "/favicon-32x32.png"
     apple_touch_icon = "/apple-touch-icon.png"
 
-  # UI/UX
+  # --- [2. UI/UX 설정] ---
   ShowReadingTime = true
-  ShowShareButtons = true      # 공유 버튼 활성화 추천
-  ShowCodeCopyButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowToc = true
-  ShowWordCount = true
+  ShowShareButtons = true      # 포스트 하단 공유 버튼
+  ShowCodeCopyButtons = true   # 코드 블록 복사 버튼
+  ShowPostNavLinks = true      # 이전/다음 글 링크
+  ShowBreadCrumbs = true       # 페이지 경로 표시
+  ShowToc = true               # 목차 표시
+  ShowWordCount = true         # 단어 수 표시
   disableSpecial1stPost = false
   mainSections = ["posts", "azure", "architecture", "ai"]
+
+  # --- [3. 소셜 커버 이미지] ---
+  # 블로그 링크 공유 시 나타날 기본 이미지 (static/papermod-cover.png)
+  images = ["/papermod-cover.png"]
 
 [params.homeInfoParams]
   Title = "KY's Engineering Blog"
   Content = "클라우드 아키텍처와 AI 기술 학습 노트를 공유합니다."
+  
+  # --- [4. 홈 프로필 이미지 설정] ---
+  # static/profile.png 경로의 파일을 첫 화면에 표시합니다.
+  imageUrl = "/profile.png"
+  imageWidth = 120
+  imageHeight = 120
 
 [[params.socialIcons]]
   name = "github"
@@ -54,7 +65,7 @@ enableRobotsTXT = true
   threshold = 0.4
   keys = ["title", "permalink", "summary", "content"]
 
-# 메뉴 설정 (기존과 동일)
+# --- [5. 메뉴 설정] ---
 [[menu.main]]
   identifier = "about"
   name = "About"
@@ -105,6 +116,7 @@ enableRobotsTXT = true
   url = "/archives/"
   weight = 50
 
+# --- [6. 택소노미(분류) 설정] ---
 [taxonomies]
   category = "categories"
   tag = "tags"
