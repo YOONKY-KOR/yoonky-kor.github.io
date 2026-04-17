@@ -12,8 +12,8 @@ const CONTENT_ROOT = path.join(__dirname, "../content");
 // Notion Category → Hugo section 폴더 매핑
 const CATEGORY_MAP = {
   "Architecture": "architecture",
-  "Azure": "tech-references",
-  "Claude / AI": "claude-guide",
+  "Azure": "azure",
+  "Claude": "claude",
   "Dev Notes": "posts",
   "Japan Life": "posts",
 };

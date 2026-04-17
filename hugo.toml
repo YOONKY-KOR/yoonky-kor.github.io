@@ -18,7 +18,7 @@ enableRobotsTXT = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   disableSpecial1stPost = false
-  mainSections = ["posts", "tech-references", "architecture", "claude-guide"]
+  mainSections = ["posts", "azure", "architecture", "claude"]
 
 [params.homeInfoParams]
   Title = "KY's Engineering Blog"
@@ -53,23 +53,23 @@ enableRobotsTXT = true
 
 [[menu.main]]
   parent = "categories"
-  identifier = "tech-references"
-  name = "Tech References"
-  url = "/tech-references/"
+  identifier = "azure"
+  name = "Azure Tech Notes"
+  url = "/azure/"
   weight = 1
 
 [[menu.main]]
   parent = "categories"
   identifier = "architecture"
-  name = "Architecture Insights"
+  name = "Architecture Notes"
   url = "/architecture/"
   weight = 2
 
 [[menu.main]]
   parent = "categories"
-  identifier = "claude-guide"
-  name = "Claude 엔지니어링 가이드"
-  url = "/claude-guide/"
+  identifier = "claude"
+  name = "AI Workflow System"
+  url = "/claude/"
   weight = 3
 
 [[menu.main]]
