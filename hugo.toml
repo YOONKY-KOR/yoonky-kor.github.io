@@ -15,7 +15,7 @@ enableRobotsTXT = true
   env = "production"
   title = "Tab"
   description = "Cloud & AI Engineering Blog"
-  author = "Yoon Kangyeul"
+  author = "yoonkyl"
   defaultTheme = "auto"
 
   # --- [1. 파비콘 설정] ---
