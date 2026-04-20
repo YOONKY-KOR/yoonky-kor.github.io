@@ -1,5 +1,5 @@
 baseURL = "https://yoonky-kor.github.io/"
-title = "KY"
+title = "KY's Blog"
 languageCode = "ko"
 theme = "PaperMod"
 
@@ -15,7 +15,7 @@ enableRobotsTXT = true
   env = "production"
   title = "Tab"
   description = "Cloud & AI Engineering Blog"
-  author = "author"
+  author = "Yoon Kangyeul"
   defaultTheme = "auto"
 
   # --- [1. 파비콘 설정] ---
