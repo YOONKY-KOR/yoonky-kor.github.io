@@ -78,6 +78,10 @@ enableRobotsTXT = true
   # defaultTheme: 기본 컬러 테마 ("auto" = 시스템 설정 따름, "light", "dark")
   defaultTheme = "auto"
 
+  # comments: true 시 모든 포스트에 댓글창 활성화
+  # 개별 포스트에서 비활성화하려면 front matter에 comments: false 추가
+  comments = true
+
 
   # ----------------------------------------------------------
   # [1. 파비콘 설정]
@@ -284,3 +288,43 @@ enableRobotsTXT = true
   category = "categories"
   tag      = "tags"
   series   = "series"
+
+
+# ============================================================
+# [7. Giscus 댓글 설정]
+# ============================================================
+# GitHub Discussions 기반 댓글 시스템입니다.
+# 설정 전 아래 단계를 먼저 완료하세요:
+#   1. https://github.com/apps/giscus 에서 저장소에 Giscus 앱 설치
+#   2. 저장소 Settings > General > Discussions 활성화
+#   3. https://giscus.app 에서 설정 후 repo-id, category-id 값 복사
+#
+# ⚠️  repoId / categoryId 는 giscus.app 에서 발급받은 값으로 교체하세요.
+[params.giscus]
+  # repo: "GitHub사용자명/저장소명" 형식
+  repo           = "YOONKY-KOR/yoonky-kor.github.io"
+
+  # repoId: giscus.app 에서 확인한 Repository ID (R_ 로 시작)
+  repoId         = "YOUR_REPO_ID"
+
+  # category: Discussions 카테고리 이름 (보통 "General" 또는 "Announcements")
+  category       = "General"
+
+  # categoryId: giscus.app 에서 확인한 Category ID (DIC_ 로 시작)
+  categoryId     = "YOUR_CATEGORY_ID"
+
+  # mapping: 포스트와 Discussion을 연결하는 방식
+  #   "pathname" = URL 경로 기준 (권장), "title" = 포스트 제목 기준
+  mapping        = "pathname"
+
+  # reactionsEnabled: 포스트 상단 이모지 반응 버튼 표시 ("1" = 활성, "0" = 비활성)
+  reactionsEnabled = "1"
+
+  # inputPosition: 댓글 입력창 위치 ("bottom" = 댓글 아래, "top" = 댓글 위)
+  inputPosition  = "bottom"
+
+  # theme: 댓글창 테마 ("preferred_color_scheme" = 시스템 다크/라이트 자동 적용)
+  theme          = "preferred_color_scheme"
+
+  # lang: 댓글창 언어 ("ko" = 한국어)
+  lang           = "ko"
