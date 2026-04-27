@@ -8,8 +8,8 @@ baseURL = "https://yoonky-kor.github.io/"
 #         SEO 및 RSS 피드 제목으로도 사용됩니다.
 title = "KY's Blog"
 
-# paginate: 홈 및 목록 페이지당 표시할 포스트 수
-paginate = 10
+[pagination]
+  pagerSize = 10
 
 # languageCode: 사이트 언어 코드 (ko = 한국어, en = 영어)
 languageCode = "ko"
