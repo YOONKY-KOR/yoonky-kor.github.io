@@ -60,7 +60,7 @@
 
   .home-layout {
     display: grid;
-    grid-template-columns: 290px 1fr;
+    grid-template-columns: 260px 1fr;
     gap: 2.5rem;
     align-items: start;
   }
@@ -71,14 +71,27 @@
     top: 80px;
   }
 
+  /* 사이드바 프로필 중앙 정렬 */
+  .home-sidebar .profile {
+    padding: 0.5rem 0 0.8rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-sidebar .profile_inner {
+    align-items: center;
+    text-align: center;
+  }
+
   /* 우측 포스트 목록 */
   .home-posts {
     min-width: 0;
   }
 
   .home-posts .post-entry {
-    border-bottom: 1px solid var(--border);
     padding: 1.2rem 0;
+    border-bottom: 1px solid var(--border);
+    opacity: 0.95;
   }
 
   .home-posts .post-entry:first-child {
@@ -92,17 +105,6 @@
   .home-all-posts {
     padding: 1rem 0 0;
     font-size: 0.9rem;
-  }
-
-  /* 사이드바 프로필 좌측 정렬 */
-  .home-sidebar .profile {
-    padding: 0.5rem 0 0.8rem;
-    align-items: flex-start;
-  }
-
-  .home-sidebar .profile_inner {
-    align-items: flex-start;
-    text-align: left;
   }
 
   /* 모바일: 세로 스택 */
