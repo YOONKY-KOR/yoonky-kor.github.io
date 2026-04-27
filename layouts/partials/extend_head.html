@@ -50,4 +50,73 @@
   .entry-content {
     font-size: 13px;
   }
+
+  /* ─── 홈 2단 그리드 레이아웃 ─────────────────────────── */
+
+  /* 홈페이지에서 main 컨테이너를 넓게 */
+  body.list .main {
+    max-width: 1100px;
+  }
+
+  .home-layout {
+    display: grid;
+    grid-template-columns: 290px 1fr;
+    gap: 2.5rem;
+    align-items: start;
+  }
+
+  /* 사이드바 고정: 스크롤해도 좌측에 붙어있음 */
+  .home-sidebar {
+    position: sticky;
+    top: 80px;
+  }
+
+  /* 우측 포스트 목록 */
+  .home-posts {
+    min-width: 0;
+  }
+
+  .home-posts .post-entry {
+    border-bottom: 1px solid var(--border);
+    padding: 1.2rem 0;
+  }
+
+  .home-posts .post-entry:first-child {
+    padding-top: 0;
+  }
+
+  .home-posts .post-entry:last-of-type {
+    border-bottom: none;
+  }
+
+  .home-all-posts {
+    padding: 1rem 0 0;
+    font-size: 0.9rem;
+  }
+
+  /* 사이드바 프로필 좌측 정렬 */
+  .home-sidebar .profile {
+    padding: 0.5rem 0 0.8rem;
+    align-items: flex-start;
+  }
+
+  .home-sidebar .profile_inner {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  /* 모바일: 세로 스택 */
+  @media (max-width: 768px) {
+    .home-layout {
+      grid-template-columns: 1fr;
+    }
+
+    .home-sidebar {
+      position: static;
+    }
+
+    body.list .main {
+      max-width: 750px;
+    }
+  }
 </style>
