@@ -2,7 +2,7 @@
 
 Hugo + PaperMod 테마 기반 기술 블로그
 
-- **사이트**: https://yoonky-kor.github.io/
+- **사이트**:[KY's Blog] (https://yoonky-kor.github.io/)
 - **테마**: [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
 - **댓글**: Giscus (GitHub Discussions)
 
